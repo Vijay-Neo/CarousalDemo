@@ -15,7 +15,7 @@ import androidx.compose.ui.Modifier
 import com.example.demo.ui.compose.Content
 import com.example.demo.ui.compose.FloatingButton
 import com.example.demo.ui.theme.DemoTheme
-import com.example.demo.viewmodel.MainViewModel
+import com.example.demo.viewmodel.MainViewModelImpl
 
 /**
  * This is the main activity of the application
@@ -27,14 +27,12 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             DemoTheme {
-                val viewModel by viewModels<MainViewModel>()
+                val viewModel by viewModels<MainViewModelImpl>()
                 val showBottomSheet =
                     rememberSaveable { mutableStateOf(false) } //State for bottom sheet
 
                 Scaffold(
-                    topBar = {
-//                        TopAppBar(title = { Text("Demo App") }) // Customize as needed
-                    },
+                    topBar = { },
                     floatingActionButton = {
                         FloatingButton() { showBottomSheet.value = true }
                     }

@@ -10,13 +10,9 @@ import kotlinx.coroutines.withContext
 /**
  * Single source of truth data
  * */
-class MainRepository {
+interface MainRepository {
 
-    suspend fun getAllItemData() : List<MutableList<ItemData>> = withContext(Dispatchers.IO) {
-        listOfAllData
-    }
+    suspend fun getAllItemData() : List<MutableList<ItemData>>
 
-    suspend fun getAllCarousalData() : List<CarouselData> = withContext(Dispatchers.IO) {
-        listOfCarousal
-    }
+    suspend fun getAllCarousalData() : List<CarouselData>
 }

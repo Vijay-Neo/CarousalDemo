@@ -6,6 +6,7 @@
 2. Application developed using jetpack compose
 3. Not used any third party libraries. Only used android & kotlin libraries.
 4. Screenshots also added in the project
+5. Version catalog used
 
 ## Screenshots
 This project includes screenshots to provide a visual overview of the application. You can find them in the [screenshots](/screenshots) directory.

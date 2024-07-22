@@ -43,7 +43,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
-import com.example.demo.viewmodel.MainViewModel
+import com.example.demo.viewmodel.MainViewModelImpl
 import kotlinx.coroutines.coroutineScope
 
 /**
@@ -51,7 +51,7 @@ import kotlinx.coroutines.coroutineScope
  * */
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun MainScreen(viewModel: MainViewModel) {
+fun MainScreen(viewModel: MainViewModelImpl) {
     val searchText = rememberSaveable { mutableStateOf("") }
     val carousalList by viewModel.carousalList.collectAsState()
     val pagerState = rememberPagerState(pageCount = { carousalList?.size ?: 0 })

@@ -12,14 +12,14 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.demo.viewmodel.MainViewModel
+import com.example.demo.viewmodel.MainViewModelImpl
 
 
 /**
  * to display Statistics Content on bottomsheet page
  */
 @Composable
-fun StatisticsContent(viewModel: MainViewModel) {
+fun StatisticsContent(viewModel: MainViewModelImpl) {
     val pageItems by viewModel.filteredListData.collectAsState()
 
     Column(modifier = Modifier.fillMaxWidth()) {
