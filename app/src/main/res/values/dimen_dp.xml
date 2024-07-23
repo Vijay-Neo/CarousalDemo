@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="_0adp">0.00dp</dimen>
+	<dimen name="_1adp">1.00dp</dimen>
+	<dimen name="_5adp">5.00dp</dimen>
+	<dimen name="_8adp">8.00dp</dimen>
+	<dimen name="_10adp">10.00dp</dimen>
+	<dimen name="_16adp">16.00dp</dimen>
+	<dimen name="_60adp">60.00dp</dimen>
+	<dimen name="_200adp">200.00dp</dimen>
+</resources>
