@@ -27,14 +27,15 @@ This project leverages several Jetpack Compose libraries to build a modern Andro
 
 * **androidx.lifecycle:lifecycle-runtime-ktx:** Offers Kotlin extensions for the Lifecycle components,enabling lifecycle-aware behavior in your composables.
 
-* **androidx.activity:activity-compose:**  Integrates Jetpack Compose with Activities, allowing you to seamlessly use composables within your Activity classes.
+* **androidx.appcompat:appcompat:**  The core Android support library, providing backward compatibility for newer Android features on older devices and a consistent design language across various Android versions.
 
-* **androidx.compose.bom:** The Compose Bill of Materials (BOM) manages the versions of all Compose libraries, ensuring compatibility and simplifying dependency management.
+* **com.google.android.material: material:** The Material Design components library, offering a wide range of pre-built UI elements that adhere to Google's Material Design guidelines, ensuring a visually appealing and user-friendly interface.
 
-* **androidx.ui:ui:** The foundation of Jetpack Compose, providing essential building blocks for creating user interfaces.
+* **androidx.constraintlayout: constraintlayout:** A flexible layout manager that allows you to create complex and responsive layouts with flat view hierarchies, improving performance and simplifying UI design.
 
-* **androidx.ui:ui-graphics:**  Offers graphics capabilities for drawing and manipulating visual elements within your composables.
+* **androidx.navigation: navigation- fragment- ktx:** Part of the Jetpack Navigation Component, this library provides Kotlin extensions for seamlessly integrating navigation between Fragments within your application, enhancing user flow and code organization.
 
-* **androidx.ui:ui-tooling-preview:**  Provides tools for previewing your composables directly within Android Studio, enabling rapid UI development and iteration.
+* **androidx.navigation: navigation- ui- ktx:** Also part of Jetpack Navigation, this library offers Kotlin extensions for easily connecting navigation elements like the Toolbar and BottomNavigationView to your navigation graph, streamlining the implementation of common navigation patterns.
 
-* **androidx.material3:material3:** Implements Material Design 3 components in Jetpack Compose, providing a comprehensive set of pre-built UI elements that adhere to modern design guidelines.
+* **androidx.viewpager2: viewpager2:**  The updated ViewPager component, providing improved functionality and performance over the original ViewPager, enabling smooth and efficient swiping between pages or screens in your app.
+
