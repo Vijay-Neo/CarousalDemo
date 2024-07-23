@@ -3,7 +3,7 @@
 ## Description
 
 1. The App is built using MVVM pattern. App has been divided into : `ui`, `data`, `utils`, `viewmodel`
-2. Application developed using jetpack compose
+2. Application developed using normal xml
 3. Not used any third party libraries. Only used android & kotlin libraries.
 4. Screenshots also added in the project
 5. Version catalog used
